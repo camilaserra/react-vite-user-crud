@@ -1,0 +1,14 @@
+.footer {
+    background-color: var(--color-purple-050);
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-200);
+    transform: translateX(-50%);
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    padding: 16px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 50%;
+}
