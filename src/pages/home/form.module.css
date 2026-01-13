@@ -1,14 +1,39 @@
 .formPageWrapper {
-  display: flex;
-  height: 100vh;
-  align-items: center;
-  padding: 20px;
   background-color: var(--color-green-050);
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  padding: 20px;
 }
 
-.formPageWrapper h1 {
-  font-size: var(--font-size-lg);
-  margin-bottom: 10px;
+.formPageWrapper .boxTitle {
+  flex-direction: column;
+  align-items: start;
+  display: flex;
 }
+
+.formPageWrapper .boxTitle h1 {
+  font-size: var(--font-size-lg);
+  color: var(--color-purple-100);
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.formPageWrapper .boxTitle p {
+  font-size: var(--font-size-md);
+  color: var(--color-gray-250);
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+@media (max-width: 600px) {
+  .formPageWrapper .boxTitle h1 {
+    font-size: var(--font-size-md);
+  }
+
+  .formPageWrapper .boxTitle p {
+    font-size: var(--font-size-sm);
+  }
+}
+
