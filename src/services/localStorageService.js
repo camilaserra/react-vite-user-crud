@@ -1,8 +1,7 @@
 const STORAGE_KEY = 'users'
 
 export const getUsers = () => {
-  const data = localStorage.getItem(STORAGE_KEY)
-  return data ? JSON.parse(data) : []
+  return JSON.parse(localStorage.getItem(STORAGE_KEY)) || []
 }
 
 export const saveUsers = (users) => {
