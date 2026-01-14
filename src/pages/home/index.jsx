@@ -1,6 +1,5 @@
 import UserForm from "../../components/forms/index.jsx";
 import Header from "../../components/header/index.jsx";
-
 import styles from './Form.module.css';
 
 export default function FormPage() {
