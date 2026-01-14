@@ -59,7 +59,7 @@ Antes de começar, você precisa ter instalado:
 ### Clonar o repositório
 
 ```bash
-git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/camilaserra/tinnova-react-test-front-end.git)
+git clone https://github.com/camilaserra/tinnova-react-test-front-end.git
 cd seu-repositorio
 
 npm install
