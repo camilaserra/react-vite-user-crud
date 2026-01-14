@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { getUsers, saveUsers } from '../../services/localStorageService'
-import styles from './ListPage.module.css'
+import styles from './list.module.css'
 import { cpfMask, phoneMask } from '../../utils/inputMasks'
 import Header from '../../components/header'
 import EmptyState from '../../components/EmptyState/EmptyState'
