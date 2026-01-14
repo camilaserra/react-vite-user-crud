@@ -5,6 +5,7 @@ export default function UserForm() {
   const {
     form,
     errors,
+    loading,
     handleChange,
     handleSubmit,
     isButtonDisabled
@@ -91,7 +92,7 @@ export default function UserForm() {
         className={styles.button}
         disabled={isButtonDisabled}
       >
-        Cadastrar
+        {loading ? <span className={styles.spinner} /> : 'Cadastrar'}
       </button>
     </form>
   )

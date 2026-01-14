@@ -14,6 +14,7 @@ const formatUser = (user) => ({
 const cleanNumber = (value = '') => value.replace(/\D/g, '')
 
 export default function ListPage() {
+  const [loading, setLoading] = useState(false)
   const [users, setUsers] = useState(() =>
     getUsers().map(formatUser)
   )
