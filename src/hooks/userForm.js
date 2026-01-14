@@ -4,7 +4,7 @@ import { isValidCPF } from '../utils/validators/cpfValidator'
 import { getUsers, saveUsers } from '../services/localStorageService'
 import { useNavigate } from 'react-router-dom'
 
-export function useUserForm() {
+export function userForm() {
     const [form, setForm] = useState({
         name: '',
         cpf: '',
