@@ -1,5 +1,5 @@
 import styles from './UserForm.module.css'
-import { useUserForm } from '../../hooks/useUserForm'
+import { userForm } from '../../hooks/userForm'
 
 export default function UserForm() {
   const {
@@ -8,7 +8,7 @@ export default function UserForm() {
     handleChange,
     handleSubmit,
     isButtonDisabled
-  } = useUserForm()
+  } = userForm()
 
   return (
     <form className={styles.form} onSubmit={handleSubmit}>
