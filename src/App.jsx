@@ -2,8 +2,8 @@ import { useEffect } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { fetchUsers } from './services/usersApi'
 import { getUsers, saveUsers } from './services/localStorageService'
-import FormPage from './pages/home/FormPage'
-import ListPage from './pages/listPage/ListPage'
+import FormPage from './pages/home'
+import ListPage from './pages/listPage'
 
 function App() {
   useEffect(() => {
