@@ -87,6 +87,10 @@ Rodar os testes unitários
 npm run test
 ```
 
+1 - visualize os testes sendo executados no terminal;
+<img width="966" height="439" alt="image" src="https://github.com/user-attachments/assets/072ef3f2-ab56-4433-a64e-0f212ee01a07" />
+
+
 ---
 
 ### Testes End-to-End (Cypress)
@@ -106,14 +110,12 @@ O teste E2E cobre o fluxo completo do usuário com dados de (CPF inválido e vá
    
    ```
    npx cypress open
-   
    ```
    
    - No segundo terminal, execute o cypress:
    
    ```
    npx cypress open
-   
    ```
    <img width="1447" height="279" alt="image" src="https://github.com/user-attachments/assets/73c54ed5-ad5c-41bd-ae6b-d963daef5c9b" />
 
@@ -124,11 +126,13 @@ O teste E2E cobre o fluxo completo do usuário com dados de (CPF inválido e vá
    Nela, selecione a opção E2E Testing.
    
    <img width="1084" height="474" alt="image" src="https://github.com/user-attachments/assets/48c00137-e9c5-4a3a-99ac-cf98d90762d9" />
+   
 
 3 - Escolha o navegador
     Selecione o Chrome e, em seguida, clique em “Start E2E Testing in Chrome”.
    
    <img width="775" height="334" alt="image" src="https://github.com/user-attachments/assets/da446c9a-b179-4eb5-a28c-20d2bd7d7cb4" />
+   
 
 4 - Selecione o arquivo de teste
     Na lista de testes, selecione o arquivo:
@@ -136,12 +140,14 @@ O teste E2E cobre o fluxo completo do usuário com dados de (CPF inválido e vá
    userForm.cy.js
    
    <img width="1890" height="832" alt="image" src="https://github.com/user-attachments/assets/c8210cd2-dcad-4da0-a0ab-d844a47b2a20" />
+   
 
 5 - Acompanhe a execução dos testes
 
    Após selecionar o arquivo, será possível visualizar os testes sendo executados em tempo real no navegador.
 
    <img width="1843" height="846" alt="image" src="https://github.com/user-attachments/assets/4550f3a1-af94-4bf9-8930-ae3463cf5e2c" />
+   
 
 6 - Execução isolada de testes
 
