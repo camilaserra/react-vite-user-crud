@@ -59,9 +59,70 @@ Antes de começar, você precisa ter instalado:
 ### Clonar o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/camilaserra/tinnova-react-test-front-end.git)
 cd seu-repositorio
 
+npm install
+
+npm run dev
+
+http://localhost:5173
+```
+
+## 🧪 Testes
+### Testes Unitários (Vitest)
+
+Os testes unitários foram criados focando nos cenários mais críticos da aplicação, especialmente na atualização dos inputs e botão de submit desabilitado com formulário inválido.
+
+Cenários testados:
+
+   - Validação dos inputs (nome, CPF e telefone;
+   - Desabilitação do botão de cadastro quando os dados são inválidos;
+   - Liberação do fluxo quando os dados estão corretos;
+  
+
+Rodar os testes unitários
+
+```
+npm run test
+```
+
+---
+
+### Testes End-to-End (Cypress)
+
+O teste E2E cobre o fluxo completo do usuário com dados de (CPF inválido e válido / Nome com no minímo 3 caracteres):
+
+   -Preenchimento do formulário;
+   -Validação dos campos
+   -Cadastro com sucesso
+   -Redirecionamento para a tela de listagem
+
+Rodar o Cypress
+
+```
+npx cypress open
+
+```
+
+---
+
+## 📦 Persistência de Dados
+
+Os dados dos usuários são armazenados utilizando localStorage, permitindo:
+   
+   - Manter os registros após recarregar a página
+   - Simular um cenário real sem dependência de backend
+
+---
+
+## 🎨 Design
+
+### O layout foi ajustado conforme solicitado no enunciado do teste, com foco em:
+
+   - Clareza visual
+   - Organização dos elementos
+   - Boa experiência de uso
 
 
 
@@ -72,19 +133,4 @@ cd seu-repositorio
 
 
 
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
