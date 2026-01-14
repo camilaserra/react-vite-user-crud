@@ -6,7 +6,7 @@ export default function EmptyState({
 }) {
     return (
         <div className={styles.container}>
-            <img className={styles.image} src="public/list-register.svg" alt="List Register empty state" />
+            <img className={styles.image} src="./list-register.svg" alt="List Register empty state" />
             <p className={styles.title}>{title}</p>
             {description && (
                 <p className={styles.description}>{description}</p>
