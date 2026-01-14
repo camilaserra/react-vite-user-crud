@@ -107,3 +107,25 @@
 .input:focus {
   border-bottom: 1px solid var(--color-gray-200);
 }
+
+@media (max-width: 600px) {
+  .page {
+    margin: 100px auto;
+  }
+
+  .page .title {
+    font-size: var(--font-size-lg);
+  }
+
+  .row {
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .actions {
+    display: flex;
+    justify-content: center;
+  }
+}
