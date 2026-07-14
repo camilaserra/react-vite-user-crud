@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <p>
-        Teste Camila Serra -  © {currentYear}
+        Camila Serra -  © {currentYear}
       </p>
     </footer>
   )

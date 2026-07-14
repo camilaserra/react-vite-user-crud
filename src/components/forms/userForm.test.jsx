@@ -13,7 +13,7 @@ describe('UserForm', () => {
     render(<UserForm />)
 
     const nameInput = screen.getByPlaceholderText('nome completo')
-    const emailInput = screen.getByPlaceholderText('ex: tinnova@gmail.com')
+    const emailInput = screen.getByPlaceholderText('ex: camilaserra-dev@gmail.com')
     const cpfInput = screen.getByPlaceholderText('ex: 000.000.000-00')
     const phoneInput = screen.getByPlaceholderText('ex: (00) 00000-0000')
 

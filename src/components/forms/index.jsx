@@ -40,7 +40,7 @@ export default function UserForm() {
         <input
           id="email"
           name="email"
-          placeholder='ex: tinnova@gmail.com'
+          placeholder='ex: camilaserra-dev@gmail.com'
           className={styles.input}
           value={form.email}
           onChange={handleChange}
