@@ -88,7 +88,7 @@ npm run test
 ```
 
 1 - visualize os testes sendo executados no terminal;
-<img width="966" height="439" alt="image" src="https://github.com/user-attachments/assets/072ef3f2-ab56-4433-a64e-0f212ee01a07" />
+<img width="1223" height="448" alt="image" src="https://github.com/user-attachments/assets/5ad3e949-8ec2-46bf-9dfb-1663e3a74191" />
 
 
 ---
