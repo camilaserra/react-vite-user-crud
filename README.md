@@ -1,6 +1,6 @@
-# Tinnova React Test Front-end
+# React vite user crud
 
-Aplicação front-end desenvolvida como parte do teste técnico da Tinnova, utilizando **React**, **Vite** e **JavaScript**.  
+Aplicação front-end desenvolvida, utilizando **React**, **Vite** e **JavaScript**.  
 O projeto simula um fluxo completo de **cadastro de usuários**, **listagem**, **edição**, **exclusão** e **validação de dados**, com foco em boas práticas, organização do código e testes automatizados.
 
 ---
