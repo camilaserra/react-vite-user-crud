@@ -106,18 +106,13 @@ O teste E2E cobre o fluxo completo do usuário com dados de (CPF inválido e vá
 ## Executando os testes E2E com cypress
 
 1 - Utilizei dois terminais
-    - No primeiro terminal, inicie a aplicação:
+   execute o cypress:
    
    ```
    npx cypress open
    ```
-   
-   - No segundo terminal, execute o cypress:
-   
-   ```
-   npx cypress open
-   ```
-   <img width="1447" height="279" alt="image" src="https://github.com/user-attachments/assets/73c54ed5-ad5c-41bd-ae6b-d963daef5c9b" />
+   <img width="1211" height="425" alt="image" src="https://github.com/user-attachments/assets/ecf532aa-e492-4e24-a54f-4685c1ef9760" />
+
 
 
 2 - Selecione a opção “E2E Testing”
